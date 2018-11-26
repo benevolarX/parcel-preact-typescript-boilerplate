@@ -1,7 +1,7 @@
 {
 	"compilerOptions": {
 		"allowSyntheticDefaultImports": true,
-		"baseUrl": "./src",
+		"baseUrl": ".",
         "checkJs": true,
 		"esModuleInterop": true,
 		"experimentalDecorators": true,
@@ -9,6 +9,9 @@
 		"jsxFactory": "h",
 		"module": "commonjs",
 		"outDir": "dist",
+		"paths": {
+			"~*": ["./src/*"]
+		},
         "pretty": true,
         "removeComments": true,
 		"strict": true,
