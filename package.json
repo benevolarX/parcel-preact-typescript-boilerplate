@@ -1,6 +1,6 @@
 {
   "name": "parcel-preact-typescript-boilerplate",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "simple parcel preact typescript project without preact-compat",
   "main": "index.html",
   "scripts": {
