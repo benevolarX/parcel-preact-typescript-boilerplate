@@ -32,10 +32,11 @@
     "@types/node": "^10.12.18",
     "babel-preset-preact": "^1.1.0",
     "parcel-bundler": "^1.11.0",
-    "rimraf": "^2.6.2",
+    "rimraf": "^2.6.3",
     "typescript": "^3.2.2"
   },
   "dependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.2.0",
     "preact": "^8.4.2",
     "preact-compat": "^3.18.4"
   }
