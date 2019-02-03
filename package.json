@@ -1,6 +1,6 @@
 {
   "name": "parcel-preact-typescript-boilerplate",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "simple parcel preact typescript project without preact-compat",
   "main": "index.html",
   "scripts": {
@@ -27,14 +27,14 @@
     "url": "https://github.com/benevolarX/parcel-preact-typescript-boilerplate/issues"
   },
   "homepage": "https://github.com/benevolarX/parcel-preact-typescript-boilerplate#readme",
-  "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@types/node": "^10.12.18",
-    "parcel-bundler": "^1.11.0",
-    "rimraf": "^2.6.3",
-    "typescript": "^3.2.4"
-  },
   "dependencies": {
     "preact": "^8.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@types/node": "^10.12.21",
+    "parcel-bundler": "^1.11.0",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.3.1"
   }
 }
