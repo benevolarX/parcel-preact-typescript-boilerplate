@@ -1,7 +1,7 @@
 {
 	"plugins": [
 		["@babel/plugin-transform-react-jsx", {
-			"pragma": "preact.h",
+			"pragma": "h",
 			"pragmaFrag": "React.Fragment",
 			"throwIfNamespace": false,
 			"useBuiltIns": true
