@@ -1,6 +1,6 @@
 {
   "name": "parcel-preact-typescript-boilerplate",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "simple parcel preact typescript project without preact-compat",
   "main": "index.html",
   "scripts": {
@@ -32,8 +32,10 @@
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
     "@types/node": "^12.7.4",
-    "parcel-bundler": "^1.12.3",
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "https://github.com/parcel-bundler/parcel.git#v2",
     "rimraf": "^3.0.0",
     "typescript": "^3.6.2"
   }
