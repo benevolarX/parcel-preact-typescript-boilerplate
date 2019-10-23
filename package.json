@@ -33,7 +33,7 @@
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-transform-react-jsx": "^7.3.0",
-    "@types/node": "^12.11.1",
+    "@types/node": "^12.11.5",
     "cssnano": "^4.1.10",
     "parcel-bundler": "https://github.com/parcel-bundler/parcel.git#v2",
     "rimraf": "^3.0.0",
