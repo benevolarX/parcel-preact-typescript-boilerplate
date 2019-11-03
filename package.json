@@ -4,9 +4,9 @@
   "description": "simple parcel preact typescript project without preact-compat",
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html",
-    "watch": "parcel watch index.html",
-    "build": "parcel build index.html",
+    "start": "parcel ./src/index.html",
+    "watch": "parcel watch ./src/index.html",
+    "build": "parcel build ./src/index.html",
     "rebuild": "npm run clean && npm run build",
     "clean": "rimraf dist/ && rimraf .cache"
   },
@@ -28,14 +28,14 @@
   },
   "homepage": "https://github.com/benevolarX/parcel-preact-typescript-boilerplate#readme",
   "dependencies": {
-    "preact": "^10.0.1"
+    "preact": "^10.0.4"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-transform-react-jsx": "^7.3.0",
-    "@types/node": "^12.11.5",
+    "@types/node": "^12.12.5",
     "cssnano": "^4.1.10",
-    "parcel-bundler": "https://github.com/parcel-bundler/parcel.git#v2",
+    "parcel": "^1.12.4",
     "rimraf": "^3.0.0",
     "typescript": "^3.6.4"
   }

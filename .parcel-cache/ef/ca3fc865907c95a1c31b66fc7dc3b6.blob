@@ -1,0 +1,7 @@
+$parcel$require("c5279495849cb668dfb4e09ec8759a5c", "preact");
+
+const $c5279495849cb668dfb4e09ec8759a5c$var$Hello = () => $c5279495849cb668dfb4e09ec8759a5c$import$h("div", null, $c5279495849cb668dfb4e09ec8759a5c$import$h("h1", {
+  className: "hello"
+}, "Hello World"));
+
+$c5279495849cb668dfb4e09ec8759a5c$import$render($c5279495849cb668dfb4e09ec8759a5c$import$h($c5279495849cb668dfb4e09ec8759a5c$var$Hello, null), document.body);
