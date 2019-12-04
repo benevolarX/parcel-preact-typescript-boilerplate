@@ -37,6 +37,6 @@
     "cssnano": "^4.1.10",
     "parcel": "^1.12.4",
     "rimraf": "^3.0.0",
-    "typescript": "^3.7.2"
+    "typescript": "^3.7.3"
   }
 }
