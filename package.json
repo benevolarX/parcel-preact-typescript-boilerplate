@@ -28,12 +28,12 @@
   },
   "homepage": "https://github.com/benevolarX/parcel-preact-typescript-boilerplate#readme",
   "dependencies": {
-    "preact": "^10.1.0"
+    "preact": "^10.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.7.5",
     "@babel/plugin-transform-react-jsx": "^7.7.4",
-    "@types/node": "^12.12.17",
+    "@types/node": "^12.12.20",
     "cssnano": "^4.1.10",
     "parcel": "^1.12.4",
     "rimraf": "^3.0.0",
