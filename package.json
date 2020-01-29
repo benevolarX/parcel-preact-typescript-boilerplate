@@ -28,15 +28,15 @@
   },
   "homepage": "https://github.com/benevolarX/parcel-preact-typescript-boilerplate#readme",
   "dependencies": {
-    "preact": "^10.1.1"
+    "preact": "^10.2.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.5",
-    "@babel/plugin-transform-react-jsx": "^7.7.4",
-    "@types/node": "^12.12.20",
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-transform-react-jsx": "^7.8.3",
+    "@types/node": "^12.12.26",
     "cssnano": "^4.1.10",
     "parcel": "^1.12.4",
-    "rimraf": "^3.0.0",
-    "typescript": "^3.7.3"
+    "rimraf": "^3.0.1",
+    "typescript": "^3.7.5"
   }
 }
