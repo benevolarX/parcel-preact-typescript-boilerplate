@@ -33,14 +33,14 @@
     "react-dom": "preact/compat"
   },
   "dependencies": {
-    "preact": "^10.3.4"
+    "preact": "^10.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/plugin-transform-react-jsx": "^7.9.4",
-    "@types/node": "^13.9.3",
+    "@types/node": "^13.11.1",
     "cssnano": "^4.1.10",
-    "parcel": "^2.0.0-nightly.165",
+    "parcel": "^2.0.0-nightly.212",
     "rimraf": "^3.0.2",
     "typescript": "^3.8.3"
   }
