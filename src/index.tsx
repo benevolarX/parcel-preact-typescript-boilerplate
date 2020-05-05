@@ -1,5 +1,4 @@
 import { h, render } from 'preact';
-
-const Hello = () => (<div><h1 className="hello" >Hello World</h1></div>);
+import Hello from './Hello';
 
 render(<Hello/>, document.body);
