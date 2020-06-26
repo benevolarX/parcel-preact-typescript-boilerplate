@@ -1,8 +1,6 @@
 # parcel-preact-typescript-boilerplate
-simple hello world project
+simple hello world template project
 
-UPDATE 10 SEPT 2019
+UPDATE 26 JUNE 2020
 
-```bash
-$ npm i parcel-preact-typescript-boilerplate
-```
+fork for use
