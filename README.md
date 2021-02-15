@@ -1,6 +1,6 @@
 # parcel-preact-typescript-boilerplate
 simple hello world template project
 
-UPDATE 26 JUNE 2020
+UPDATE 15 FEBUARY 2021
 
 fork for use

@@ -6,10 +6,10 @@
   "scripts": {
     "start": "parcel serve './src/index.html'",
     "watch": "parcel watch './src/index.html'",
-    "build": "parcel build './src/index.html' --dist-dir dist",
+    "build": "parcel build './src/index.html' --dist-dir build",
     "rebuild": "npm run clean && npm run build",
-    "clean": "npm run clean:dist && npm run clean:cache",
-    "clean:dist": "rimraf dist",
+    "clean": "npm run clean:build && npm run clean:cache",
+    "clean:build": "rimraf build",
     "clean:cache": "rimraf .cache && rimraf .parcel-cache"
   },
   "repository": {
