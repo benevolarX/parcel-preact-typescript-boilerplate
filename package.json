@@ -1,6 +1,6 @@
 {
   "name": "parcel-preact-typescript-boilerplate",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "simple parcel2 preact typescript project without preact-compat",
   "module": "./build/index.html",
   "scripts": {
@@ -35,27 +35,28 @@
     "react-dom": "preact/compat"
   },
   "dependencies": {
-    "preact": "^10.5.12"
+    "preact": "^10.5.13"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.16",
-    "@babel/plugin-transform-react-jsx": "^7.12.16",
-    "@parcel/config-default": "^2.0.0-beta.1",
-    "@parcel/optimizer-cssnano": "^2.0.0-nightly.598",
-    "@parcel/optimizer-htmlnano": "^2.0.0-nightly.598",
-    "@parcel/packager-css": "^2.0.0-nightly.598",
-    "@parcel/packager-html": "^2.0.0-nightly.598",
-    "@parcel/transformer-css": "^2.0.0-nightly.598",
-    "@parcel/transformer-html": "^2.0.0-nightly.598",
-    "@parcel/transformer-postcss": "^2.0.0-nightly.598",
-    "@parcel/transformer-posthtml": "^2.0.0-nightly.598",
-    "@parcel/transformer-typescript-tsc": "^2.0.0-beta.1",
-    "@parcel/validator-typescript": "^2.0.0-beta.1",
-    "@types/node": "^14.14.28",
+    "@babel/core": "^7.13.10",
+    "@babel/plugin-transform-react-jsx": "^7.12.17",
+    "@parcel/config-default": "next",
+    "@parcel/optimizer-cssnano": "nightly",
+    "@parcel/optimizer-htmlnano": "nightly",
+    "@parcel/packager-css": "nightly",
+    "@parcel/packager-html": "nightly",
+    "@parcel/transformer-css": "nightly",
+    "@parcel/transformer-html": "nightly",
+    "@parcel/transformer-postcss": "nightly",
+    "@parcel/transformer-posthtml": "nightly",
+    "@parcel/transformer-typescript-tsc": "next",
+    "@parcel/validator-typescript": "^2.0.0-nightly.628",
+    "@types/node": "^14.14.34",
     "cssnano": "^4.1.10",
-    "parcel": "^2.0.0-nightly.596",
-    "postcss": "^8.2.6",
+    "parcel": "nightly",
+    "postcss": "^8.2.8",
     "rimraf": "^3.0.2",
-    "typescript": "^4.1.5"
+    "typescript": "^4",
+    "typescript-legacy": "npm:typescript@^3"
   }
 }
