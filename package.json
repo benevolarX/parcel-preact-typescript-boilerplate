@@ -1,8 +1,9 @@
 {
   "name": "parcel-preact-typescript-boilerplate",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "simple parcel2 preact typescript project without preact-compat",
   "module": "./build/index.html",
+  "type": "module",
   "scripts": {
     "start": "parcel serve './src/index.html'",
     "watch": "parcel watch './src/index.html'",
@@ -10,7 +11,7 @@
     "rebuild": "npm run clean && npm run build",
     "clean": "npm run clean:build && npm run clean:cache",
     "clean:build": "rimraf build",
-    "clean:cache": "rimraf .cache && rimraf .parcel-cache"
+    "clean:cache": "rimraf .cache && rimraf .parcel-cache",
   },
   "repository": {
     "type": "git",
@@ -38,25 +39,12 @@
     "preact": "^10.5.13"
   },
   "devDependencies": {
-    "@babel/core": "^7.13.10",
-    "@babel/plugin-transform-react-jsx": "^7.12.17",
-    "@parcel/config-default": "next",
-    "@parcel/optimizer-cssnano": "nightly",
-    "@parcel/optimizer-htmlnano": "nightly",
-    "@parcel/packager-css": "nightly",
-    "@parcel/packager-html": "nightly",
-    "@parcel/transformer-css": "nightly",
-    "@parcel/transformer-html": "nightly",
-    "@parcel/transformer-postcss": "nightly",
-    "@parcel/transformer-posthtml": "nightly",
-    "@parcel/transformer-typescript-tsc": "next",
-    "@parcel/validator-typescript": "^2.0.0-nightly.628",
-    "@types/node": "^14.14.34",
+    "@parcel/validator-typescript": "next",
+    "@types/node": "^14.14.35",
     "cssnano": "^4.1.10",
-    "parcel": "nightly",
+    "parcel": "latest",
     "postcss": "^8.2.8",
     "rimraf": "^3.0.2",
-    "typescript": "^4",
-    "typescript-legacy": "npm:typescript@^3"
+    "typescript": ">=3"
   }
 }
