@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"baseUrl": "./src",
+        "checkJs": true,
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"jsx": "react-jsx",
+    "jsxImportSource": "preact",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"outDir": "dist",
+		"paths": {
+			"~*": ["./src/*"]
+		},
+        "pretty": true,
+        "removeComments": true,
+		"sourceMap": true,
+		"strict": true,
+		"target": "ES2021",
+		"typeRoots" : ["./node_modules/@types"]
+	},
+	"include": [
+		"./src/**/*.ts",
+		"./src/**/*.tsx"
+	],
+	"parcelTsPluginOptions": {
+		"transpileOnly": false
+    }
+}

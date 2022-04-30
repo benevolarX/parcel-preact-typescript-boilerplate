@@ -1,0 +1,67 @@
+{
+  "name": "parcel-preact-typescript-boilerplate",
+  "version": "3.1.0",
+  "description": "simple parcel2 preact typescript project without preact-compat",
+  "type": "module",
+  "source": "src/index.ts",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "main": "dist/main.js",
+  "targets": {	
+    "module": false,
+    "main": false,
+    "types": false
+  },
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "watch": "parcel watch ./src/index.html",
+    "build": "parcel build src/index.html --dist-dir dist",
+    "rebuild": "npm run clean && npm run build",
+    "clean": "npm run clean:build && npm run clean:cache",
+    "clean:build": "rimraf dist",
+    "clean:cache": "rimraf .cache && rimraf .parcel-cache",
+    "test": "jest",
+    "lint": "eslint",
+    "check": "tsc --noEmit",
+    "ci": "npm run build && npm run test && npm run lint && npm run check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benevolarX/parcel-preact-typescript-boilerplate.git"
+  },
+  "keywords": [
+    "parcel",
+    "preact",
+    "typescript",
+    "boilerplate",
+    "project"
+  ],
+  "author": "benevolar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benevolarX/parcel-preact-typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/benevolarX/parcel-preact-typescript-boilerplate#readme",
+  "alias": {
+    "react": "preact/compat",
+    "react-dom/test-utils": "preact/test-utils",
+    "react-dom": "preact/compat"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not IE 9-11, not dead",
+  "dependencies": {
+    "preact": "^10.7.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@parcel/reporter-bundle-analyzer": "^2.5.0",
+    "@parcel/transformer-typescript-tsc": "^2.5.0",
+    "@parcel/validator-typescript": "^2.5.0",
+    "@types/node": "^17.0.30",
+    "cssnano": "^5.1.7",
+    "parcel": "latest",
+    "postcss": "^8.4.13",
+    "posthtml-doctype": "^1.1.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.4"
+  }
+}
