@@ -1,6 +1,6 @@
 {
   "name": "parcel-preact-typescript-boilerplate",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "simple parcel2 preact typescript project without preact-compat",
   "type": "module",
   "source": "src/index.ts",
