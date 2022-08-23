@@ -7,7 +7,7 @@
 		"esModuleInterop": true,
 		"experimentalDecorators": true,
 		"jsx": "react-jsx",
-    "jsxImportSource": "preact",
+		"jsxImportSource": "preact",
 		"module": "commonjs",
 		"moduleResolution": "node",
 		"outDir": "dist",
