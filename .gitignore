@@ -64,6 +64,5 @@ typings/
 .parcel-cache/
 dist/
 build/
-package-lock.json
 .vscode
 /template/node_modules
