@@ -1,4 +1,4 @@
-import { h, render } from 'preact'
-import { Hello } from './Hello'
+import { h, render } from "preact";
+import { Hello } from "./Hello";
 
-render(<Hello/>, document.body);
+render(<Hello />, document.body);

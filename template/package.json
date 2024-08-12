@@ -1,6 +1,6 @@
 {
   "name": "parcel-preact-typescript-boilerplate",
-  "version": "4.0.3",
+  "version": "4.0.5",
   "description": "simple parcel2 preact typescript project without preact-compat",
   "type": "module",
   "source": "src/index.ts",
@@ -13,9 +13,10 @@
     "types": false
   },
   "scripts": {
+    "dev": "npm run start",
     "start": "parcel serve ./src/index.html",
     "watch": "parcel watch ./src/index.html",
-    "build": "parcel build src/index.html --dist-dir dist",
+    "build": "parcel build ./src/index.html --dist-dir dist",
     "rebuild": "npm run clean && npm run build",
     "clean": "npm run clean:build && npm run clean:cache",
     "clean:build": "rimraf dist",
@@ -52,19 +53,20 @@
   },
   "browserslist": "> 0.5%, last 2 versions, not IE 9-11, not dead",
   "dependencies": {
-    "preact": "^10.21.0"
+    "preact": "^10.23.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.24.5",
+    "@babel/core": "^7.25.2",
+    "@parcel/config-default": "^2.12.0",
     "@parcel/reporter-bundle-analyzer": "^2.12.0",
+    "@parcel/reporter-dev-server": "^2.12.0",
+    "@parcel/resolver-default": "^2.12.0",
     "@parcel/transformer-typescript-tsc": "^2.12.0",
-    "@parcel/validator-typescript": "^2.12.0",
-    "@types/node": "^20.12.8",
-    "cssnano": "^7.0.1",
+    "cssnano": "^7.0.5",
     "parcel": "^2.12.0",
-    "postcss": "^8.4.38",
+    "postcss": "^8.4.41",
     "posthtml-doctype": "^1.1.1",
-    "rimraf": "^5.0.5",
-    "typescript": "^5.4.5"
+    "rimraf": "^6.0.1",
+    "typescript": "^5.5.4"
   }
 }

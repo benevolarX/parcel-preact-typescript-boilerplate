@@ -1,31 +1,38 @@
 {
-	"compilerOptions": {
-		"allowJs": true,
-		"allowSyntheticDefaultImports": true,
-		"baseUrl": "./src",
-        "checkJs": true,
-		"esModuleInterop": true,
-		"experimentalDecorators": true,
-		"jsx": "react-jsx",
-		"jsxImportSource": "preact",
-		"module": "commonjs",
-		"moduleResolution": "node",
-		"outDir": "dist",
-		"paths": {
-			"~*": ["./src/*"]
-		},
-        "pretty": true,
-        "removeComments": true,
-		"sourceMap": true,
-		"strict": true,
-		"target": "es2023",
-		"typeRoots" : ["./node_modules/@types"]
-	},
-	"include": [
-		"./src/**/*.ts",
-		"./src/**/*.tsx"
-	],
-	"parcelTsPluginOptions": {
-		"transpileOnly": false
-    }
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src",
+    "checkJs": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "dist",
+    "paths": {
+      "~*": ["./src/*"]
+    },
+    "pretty": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2023",
+    "typeRoots": ["./node_modules/@types"],
+    "useDefineForClassFields": true
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.tsx"],
+  "parcelTsPluginOptions": {
+    "transpileOnly": false
+  }
 }
