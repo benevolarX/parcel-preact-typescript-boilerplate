@@ -1,6 +1,6 @@
 {
   "name": "parcel-preact-typescript-boilerplate",
-  "version": "4.0.5",
+  "version": "4.1.0",
   "description": "simple parcel2 preact typescript project without preact-compat",
   "type": "module",
   "source": "src/index.ts",
@@ -53,20 +53,20 @@
   },
   "browserslist": "> 0.5%, last 2 versions, not IE 9-11, not dead",
   "dependencies": {
-    "preact": "^10.23.1"
+    "preact": "^10.25.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.25.2",
-    "@parcel/config-default": "^2.12.0",
-    "@parcel/reporter-bundle-analyzer": "^2.12.0",
-    "@parcel/reporter-dev-server": "^2.12.0",
-    "@parcel/resolver-default": "^2.12.0",
-    "@parcel/transformer-typescript-tsc": "^2.12.0",
-    "cssnano": "^7.0.5",
-    "parcel": "^2.12.0",
-    "postcss": "^8.4.41",
+    "@babel/core": "^7.26.0",
+    "@parcel/config-default": "^2.13.2",
+    "@parcel/reporter-bundle-analyzer": "^2.13.2",
+    "@parcel/reporter-dev-server": "^2.13.2",
+    "@parcel/resolver-default": "^2.13.2",
+    "@parcel/transformer-typescript-tsc": "^2.13.2",
+    "cssnano": "^7.0.6",
+    "parcel": "^2.13.2",
+    "postcss": "^8.4.49",
     "posthtml-doctype": "^1.1.1",
     "rimraf": "^6.0.1",
-    "typescript": "^5.5.4"
+    "typescript": "^5.7.2"
   }
 }
