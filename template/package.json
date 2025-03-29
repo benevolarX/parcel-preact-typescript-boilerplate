@@ -14,17 +14,25 @@
   },
   "scripts": {
     "dev": "npm run start",
+    "dev:bun": "bun run start",
+    "dev:pnpm": "pnpm run start",
     "start": "parcel serve ./src/index.html",
     "watch": "parcel watch ./src/index.html",
     "build": "parcel build ./src/index.html --dist-dir dist",
     "rebuild": "npm run clean && npm run build",
+    "rebuild:bun": "bun run clean:bun && bun run build",
+    "rebuild:pnpm": "pnpm run clean:pnpm && pnpm run build",
     "clean": "npm run clean:build && npm run clean:cache",
+    "clean:bun": "bun run clean:build && bun run clean:cache",
+    "clean:pnpm": "pnpm run clean:build && pnpm run clean:cache",
     "clean:build": "rimraf dist",
     "clean:cache": "rimraf .cache && rimraf .parcel-cache",
     "test": "jest",
     "lint": "eslint",
     "check": "tsc --noEmit",
-    "ci": "npm run build && npm run test && npm run lint && npm run check"
+    "ci": "npm run build && npm run test && npm run lint && npm run check",
+    "ci:bun": "bun run build && bun run test && bun run lint && bun run check",
+    "ci:pnpm": "pnpm run build && pnpm run test && pnpm run lint && pnpm run check"
   },
   "repository": {
     "type": "git",
